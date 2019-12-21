@@ -30,3 +30,4 @@ df['label'] = df[forecast_col].shift(-forecast_out)
 
 df.dropna(inplace = True)
 print(df.head())
+print("Alan")
